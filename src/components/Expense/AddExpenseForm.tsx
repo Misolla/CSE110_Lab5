@@ -27,6 +27,7 @@ const AddExpenseForm = () => {
             type="text"
             className="form-control"
             id="name"
+            placeholder="name"
             value={name}
             // HINT: onChange={}
             onChange={(event) => setName(event.target.value)}
@@ -38,6 +39,7 @@ const AddExpenseForm = () => {
             required
             type="text"
             className="form-control"
+            placeholder="cost"
             id="cost"
             value={cost}
             // HINT: onChange={}
