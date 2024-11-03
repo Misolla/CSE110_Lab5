@@ -4,7 +4,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  // const titleElement = screen.getByText(/my budget planner/i);
-  const titleElement = screen.getByText(/my planner/i);
+  const titleElement = screen.getByText(/my budget planner/i);
   expect(titleElement).toBeInTheDocument();
 });
