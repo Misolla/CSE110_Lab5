@@ -25,13 +25,13 @@ Backend API with Express:
     Handled data validation and type safety with try/catch and type casting.
 
 Project Structure:
-project-root/
-├── .github/            # GitHub Actions workflow files
-├── client/             # React frontend
-├── server/             # Express backend with SQLite DB
-│   ├── database.sqlite # Persistent database file
-│   ├── createTable.ts  # SQLite setup logic
-│   └── src/
+project-root/  
+├── .github/            # GitHub Actions workflow files  
+├── client/             # React frontend  
+├── server/             # Express backend with SQLite DB  
+│   ├── database.sqlite # Persistent database file  
+│   ├── createTable.ts  # SQLite setup logic  
+│   └── src/  
 
 
 Client-Server Integration:
